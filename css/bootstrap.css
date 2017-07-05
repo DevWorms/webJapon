@@ -3840,6 +3840,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar {
     border-radius: 0px;
+    margin-bottom: 15px;
   }
 }
 @media (min-width: 768px) {
