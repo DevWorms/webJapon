@@ -198,8 +198,6 @@ footer .footer-below
 
         display: block;
 
-        margin-right: 128px;
-        margin-left: 9px;
         padding: 20px 0 20px 0;
     }
 
@@ -216,9 +214,6 @@ footer .footer-below
     .navbar-default .navbar-nav > li > a:hover
     {
         font-size: 21px;
-
-        margin-right: 129px;
-        margin-left: 8px;
 
         color: #d0cfcf;
     }
@@ -331,10 +326,11 @@ footer .footer-below
 
     .list-group
     {
+        font-size: 18px;
+
         margin-top: 22px;
         margin-bottom: 20px;
         padding-left: 0;
-        font-size: 18px;
     }
 }
 
