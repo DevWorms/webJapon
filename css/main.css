@@ -220,12 +220,12 @@ footer .footer-below
     {
         font-size: 21px;
 
-        color: #d0cfcf;
+        color: #244E80;;
     }
 
     .navbar-default .navbar-nav > li > a:focus
     {
-        color: white;
+        color: #244E80;;
         background-color: transparent;
     }
     .navbar-default .navbar-nav > .active > a,
@@ -328,15 +328,6 @@ footer .footer-below
         background-color: #233140;
     }
 
-
-    .list-group
-    {
-        font-size: 18px;
-
-        margin-top: 22px;
-        margin-bottom: 20px;
-        padding-left: 0;
-    }
 }
 
 /* A N I M A T I O N */

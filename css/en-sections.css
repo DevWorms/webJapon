@@ -20,3 +20,14 @@ p , .p {
         position: absolute;
     }
 }
+
+@media (min-width: 992px)
+{
+	.col-md-2 {
+	    width: 20.666667%;
+	}
+
+	.col-md-offset-1 {
+	    margin-left: 4.333333%;
+	}
+}	
