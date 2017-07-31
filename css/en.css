@@ -9,11 +9,29 @@
         padding: 10px 50px 0 40px;
     }
 
-    .navbar-default .navbar-nav > li > a {
-	    font-size: 18px;
-	}
+    .navbar-default .navbar-nav > li > a
+    {
+        font-size: 18px;
+    }
 
-	.navbar-default .navbar-nav > li > a:hover {
-	    font-size: 19px;
-	}
+    .navbar-default .navbar-nav > li > a:hover
+    {
+        font-size: 19px;
+    }
+}
+
+.sp
+{
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.sp:hover
+{
+    text-decoration: none;
+
+    color: #233140;
 }
