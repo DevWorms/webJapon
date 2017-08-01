@@ -137,7 +137,8 @@ footer .footer-above
 
     color: white;
     background-color: #3c618e;
-    /*#2C3E50*/
+    border-top: solid 3px;
+    border-color: #86c6d8;
 }
 
 footer .footer-below
@@ -309,7 +310,7 @@ footer .footer-below
 
     footer .footer-above
     {
-        padding: 25px 0;
+        padding: 20px 0;
 
         color: white;
         background-color: #3c618e;

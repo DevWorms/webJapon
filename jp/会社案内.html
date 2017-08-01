@@ -44,7 +44,7 @@
                         <a href="会社案内.html">会社案内</a>
                     </li>
                     <li class="col-sm-2">
-                        <a href="#">サービス</a>
+                        <a href="サービス.html">サービス</a>
                     </li>
                     <li class="col-sm-2">
                         <a href="#">実績</a>
@@ -71,14 +71,16 @@
         </div>
 
         <div class="row">
+
             <div class="col-md-2">
                 <div class="list-group" align="center">
-                    <a href="会社案内.html" class="list-group-item active">会社案内</a>
-                    <a href="#" class="list-group-item">企業理念</a>
-                    <a href="#" class="list-group-item">経営理念</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '1')" id="defaultOpen">会社案内</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '2')">企業理念</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '3')">経営理念</a>
                 </div>
             </div>
-            <div class="texto col-md-9 col-md-offset-1">
+
+            <div id="1" class="tabcontent texto col-md-9 col-md-offset-1">
                 <h2>会社案内</h2>
                 <hr>
                 <h4>企業理念</h4>
@@ -91,6 +93,22 @@
                 <h4>経営理念</h4>
                 <p>    
                     お客様の感動を提供するために、世界中のプロフェッショナルな技術者が、快適で心豊かになれる環境で、プロジェクトに集中し、新しいものを創造していきます。
+                </p>
+            </div>
+
+            <div id="2" class="tabcontent texto col-md-9 col-md-offset-1">
+                <h2>企業理念</h2>
+                <hr>
+                <p>
+                    UX「ユーザーエクスペリエンス」（顧客体験）を第一とし、お客様にサービスを通じて、「感動」を提供してまいります。お客様が求めるサービスより一歩先の感動を探し求め、日々研究していきます。
+                </p>
+            </div>
+
+            <div id="3" class="tabcontent texto col-md-9 col-md-offset-1">
+                <h2>経営理念</h2>
+                <hr>
+                <p>
+                   お客様の感動を提供するために、世界中のプロフェッショナルな技術者が、快適で心豊かになれる環境で、プロジェクトに集中し、新しいものを創造していきます。
                 </p>
             </div>
         </div>
@@ -133,8 +151,7 @@
         </div>    
     </footer>
 
-    <script src="../js/vendor/jquery-1.11.2.min.js"></script>
-    
+    <script src="../js/vendor/jquery-1.11.2.min.js"></script>  
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/main.js"></script>
   </body>
