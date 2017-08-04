@@ -14,9 +14,14 @@ function openContent(evt, name) {
     }
     
     document.getElementById(name).style.display = "block";
-    
+
     evt.currentTarget.className += " active";
 }
 
-// Default Tab
-   document.getElementById("defaultOpen").click();
+var url = document.location.toString();
+if (url.match('#')) {
+    document.getElementById(url.split('#')[1]).click();
+} else {
+    // Default Tab
+    document.getElementById("defaultOpen").click();
+}
