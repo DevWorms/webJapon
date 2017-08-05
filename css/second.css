@@ -2,101 +2,136 @@
       P A G E 2
    ========================================================================== */
 
-.enc {
-	color: gray;
-	margin-top: 15px;
+.enc
+{
+    margin-top: 15px;
     margin-bottom: 20px;
+
+    color: gray;
 }
 
-h2 {
-	font-size: 25px;
+h2
+{
+    font-size: 25px;
 }
 
-h4 {
-	    font-size: 15px;
-	}
-
-h2, h4 {
-	color: #244E80;
-	font-weight: bold;
+h4
+{
+    font-size: 15px;
 }
 
-p {
-	font-size: 12px;
+h2,
+h4
+{
+    font-weight: bold;
+
+    color: #244e80;
 }
 
-.texto {
-	margin-top: 35px;
+p
+{
+    font-size: 12px;
+}
+
+.texto
+{
+    margin-top: 35px;
 }
 
 .list-group
-    {
-        font-size: 18px;
+{
+    font-size: 18px;
 
-        margin-top: 22px;
-        margin-bottom: 20px;
-        padding-left: 0;
-    }
+    margin-top: 22px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
 
-.tablinks {
-	font-size: 15px;
-	cursor: pointer;
+.tablinks
+{
+    font-size: 15px;
+
+    cursor: pointer;
 }
 
 /* R E S P O N S I V E */
 
 @media screen and (min-width:768px)
 {
-	.enc {
-		margin-top: 20px;
-		margin-bottom: 10px;
-	}
+    .enc
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
 
-	h2 {
-	    font-size: 30px;
-	}
+    h2
+    {
+        font-size: 30px;
+    }
 
-	h4 {
-	    font-size: 18px;
-	}
+    h4
+    {
+        font-size: 18px;
+    }
 
-	p{
-		    font-size: 14px;
-	}
+    p
+    {
+        font-size: 14px;
+    }
 
-	.texto {
-		margin-top: 0px;
-	}
+    .texto
+    {
+        margin-top: 0;
+    }
 
-	.tablinks {
-		font-size: 17px;
-	}
+    .tablinks
+    {
+        font-size: 17px;
+    }
 
-	footer {
-	   position:absolute;
-	   bottom:0;
-	   width:100%;
-	   height: 60px;   /* Height of the footer */
-	}
+    footer
+    {
+        position: absolute;
+        bottom: 0;
 
+        width: 100%;
+        height: 60px;   /* Height of the footer */
+        margin-top: 86px;
+    }
 }
 
-footer {
-   margin-top: 86px;
+footer
+{
+    margin-top: 50px;
 }
 
 
-.tabcontent {
+.tabcontent
+{
     -webkit-animation: fadeEffect 1.5s;
-    animation: fadeEffect 1.5s; /* Fading effect takes 1 second */
+            animation: fadeEffect 1.5s; /* Fading effect takes 1 second */
 }
 
-@-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+@-webkit-keyframes fadeEffect
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
 }
 
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+@keyframes fadeEffect
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
 }

@@ -73,11 +73,11 @@
             
             <div class="col-md-2">
                 <div class="list-group" align="center">
-                    <a class="list-group-item tablinks" onclick="openContent(event, 'serv')" id="defaultOpen">Services</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, 'custom')">Custom Solutions</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, 'mobile')">Mobile devices and IOT</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, 'pos')">POS</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, 'webapp')">Web Aplication</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, 'serv')"   id="defaultOpen">Services</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, 'custom')" id="custom_link">Custom Solutions</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, 'mobile')" id="mobile_link">Mobile devices and IOT</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, 'pos')"    id="pos_link">POS</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, 'webapp')" id="webapp_link">Web Aplication</a>
                 </div>
             </div>
 
@@ -95,31 +95,37 @@
                    <b>Oracle, Sybase, Postgres, Mysql, SQLite,MongoDB,Hadoop, Apache Flink.</b>
                 </p>
                 <br>
-                <p>
-                    We can program in:                               <br><br>
-                    AVA / Lua / Objective C / C++ / C / C# / Micro C <br>
-                    Visual Basic / JavaScript / PHP / HTML 5 / XHTML <br>
-                    CSS / XML / XSLT / AngularJS / Meteor / NodeJS   <br>
-                    Python / Ruby / ASM / SQLite                     <br>
-                </p>
-                <br>
-                <p>
-                    We use the following SDK:                          <br><br>
-                    Visual Studio (Win & Mac) / Eclipse / Workbench    <br>
-                    IntelliJ IDEA / NetBeans / Processing / Lua Glider <br>
-                    SQL Server Mgmt Studio / Android Studio / X Code   <br>
-                    Aptana Studio / Corona SDK / Code Igniter / Unity  <br>
-                    CakePHP                                            <br>
+                <div class="col-md-12" style="padding-right: 0px; padding-left: 0px;">
+                    <div class="col-md-6" style="padding-right: 0px; padding-left: 0px;">
+                        <p>
+                            We can program in:                               <br><br>
+                            AVA / Lua / Objective C / C++ / C / C# / Micro C <br>
+                            Visual Basic / JavaScript / PHP / HTML 5 / XHTML <br>
+                            CSS / XML / XSLT / AngularJS / Meteor / NodeJS   <br>
+                            Python / Ruby / ASM / SQLite                     <br>
+                        </p>
+                        <br>
+                        <p>
+                            We use the following SDK:                          <br><br>
+                            Visual Studio (Win & Mac) / Eclipse / Workbench    <br>
+                            IntelliJ IDEA / NetBeans / Processing / Lua Glider <br>
+                            SQL Server Mgmt Studio / Android Studio / X Code   <br>
+                            Aptana Studio / Corona SDK / Code Igniter / Unity  <br>
+                            CakePHP                                            <br>
 
-                </p>
-                <br>
-                <p>
-                    Others:                                  <br><br>
-                    Parse / Heroku / Mastercard API          <br>
-                    Twitter API / Facebook API / Keeprz API  <br>
-                    Chrome Extensions / jQuery / PayPal API  <br>
-                    jQuery UI / Google Maps API / Amazon Web <br>
-                </p>
+                        </p>
+                    </div>
+                    
+                    <div class="col-md-6" style="padding-right: 0px; padding-left: 0px;">
+                        <p>
+                            Others:                                  <br><br>
+                            Parse / Heroku / Mastercard API          <br>
+                            Twitter API / Facebook API / Keeprz API  <br>
+                            Chrome Extensions / jQuery / PayPal API  <br>
+                            jQuery UI / Google Maps API / Amazon Web <br>
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div id="custom" class="tabcontent texto col-md-9 col-md-offset-1">
@@ -216,31 +222,31 @@
             <div class="container" align="center">
                 <div class="row">
                     <div class="col-xs-3"><a class="sp" href="about-us.html">ABOUT US</a></div>
-                    <div class="col-xs-3"><a class="sp" href="services.html">SERVICES</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, 'serv')">SERVICES</a></div>
                     <div class="col-xs-3"><a class="sp" href="#">OUR EXPERIENCE</a></div>
                     <div class="col-xs-3"><a class="sp" href="#">CONTACT</a></div>
                 </div>   
                 <div class="row">
-                    <div class="col-xs-3"><a class="sp" href="about-us.html">Our Policies</a></div>
-                    <div class="col-xs-3"><a class="sp" href="services.html">Custom Solutions</a></div>
+                    <div class="col-xs-3"><a class="sp" href="about-us.html#polici_link">Our Policies</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, 'custom')">Custom Solutions</a></div>
                     <div class="col-xs-3"></div>
                     <div class="col-xs-3"></div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-3"><a class="sp" href="about-us.html">Company management</a></div>
-                    <div class="col-xs-3"><a class="sp" href="services.html">Mobile devices and IOT</a></div>
-                    <div class="col-xs-3"></div>
-                    <div class="col-xs-3"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-3"></div>
-                    <div class="col-xs-3"><a class="sp" href="services.html">POS</a></div>
+                    <div class="col-xs-3"><a class="sp" href="about-us.html#company_link">Company management</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, 'mobile')">Mobile devices and IOT</a></div>
                     <div class="col-xs-3"></div>
                     <div class="col-xs-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-xs-3"></div>
-                    <div class="col-xs-3"><a class="sp" href="services.html">Web aplication</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, 'pos')">POS</a></div>
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, 'webapp')">Web aplication</a></div>
                     <div class="col-xs-3"></div>
                     <div class="col-xs-3"></div>
                 </div>

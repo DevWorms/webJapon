@@ -151,14 +151,14 @@ footer .footer-above
 .sp
 {
     text-decoration: none;
-
+    cursor: pointer;
     color: #fff;
 }
 
 .sp:hover
 {
     text-decoration: none;
-
+    cursor: pointer;
     color: #233140;
 }
 
