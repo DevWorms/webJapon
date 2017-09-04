@@ -73,10 +73,10 @@
             <div class="col-md-3">
                 <div class="list-group" align="center">
                     <a class="list-group-item tablinks" onclick="openContent(event, '1')" id="defaultOpen">サービス</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, '2')">カスタムソリューション</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, '3')">モバイルデバイスとネット関連</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, '4')">POSシステム</a>
-                    <a class="list-group-item tablinks" onclick="openContent(event, '5')">WEBアプリケーション</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '2')" id="2_link">カスタムソリューション</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '3')" id="3_link">モバイルデバイスとネット関連</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '4')" id="4_link">POSシステム</a>
+                    <a class="list-group-item tablinks" onclick="openContent(event, '5')" id="5_link">WEBアプリケーション</a>
                 </div>
             </div>
 
@@ -202,23 +202,34 @@
         <div class="footer-above">
             <div class="container" align="center">
                 <div class="row">
-                    <div class="col-xs-2 col-xs-offset-1"><a class="sp" href="#">会社案内</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">サービス</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">事例紹介</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">会社情報</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">お問い合わせ</a></div> 
+                    <div class="col-xs-3"><a class="sp" href="会社案内.html">会社案内</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, '1')">サービス</a></div>
+                    <div class="col-xs-3"><a class="sp" href="活動内容.html">活動内容</a></div>
+                    <div class="col-xs-3"><a class="sp" href="contact.html">問い合わせ</a></div>
                 </div>   
                 <div class="row">
-                    <div class="col-xs-2 col-xs-offset-1"><a class="sp" href="#">理念</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">システム開発</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">。。。。。</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">会社概要</a></div>
+                    <div class="col-xs-3"><a class="sp" href="会社案内.html#2_link">企業理念</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, '2')">カスタムソリューション</a></div>
+                    <div class="col-xs-3"><a class="sp" href="活動内容.html#2_link">。。。。。</a></div>
+                    <div class="col-xs-3"></div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-2 col-xs-offset-1"><a class="sp" href="#">メッセージ</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">アプリ制作</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">。。。。。</a></div>
-                    <div class="col-xs-2"><a class="sp" href="#">パートナー</a></div>
+                    <div class="col-xs-3"><a class="sp" href="会社案内.html#3_link">経営理念</a></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, '3')">モバイルデバイスとネット関連</a></div>
+                    <div class="col-xs-3"><a class="sp" href="活動内容.html#3_link">。。。。。</a></div>
+                    <div class="col-xs-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, '4')">POSシステム</a></div>
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3"><a class="sp" onclick="openContent(event, '5')">WEBアプリケーション</a></div>
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3"></div>
                 </div>
             </div>
         </div>  
