@@ -72,25 +72,26 @@
         <div class="contact-section">
             <div class="container">
                 
-                <form>
+                <form method="POST" name="fcontact" id="fcontact" action="https://formspree.io/mgarza@devworms.com">
                     <div class="col-md-6 form-line">
                         <div class="form-group">
                             <label>名前</label>
-                            <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                            <input type="text" class="form-control" name="name" id="name" placeholder=" Enter Name" required>
                         </div>
                         <div class="form-group">
                             <label>Emailアドレス</label>
-                            <input type="email" class="form-control" id="email" placeholder=" Enter Email id">
+                            <input type="email" class="form-control" name="_replyto" id="email" placeholder=" Enter Email id" required>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>内容</label>
-                            <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                            <textarea  class="form-control" name="description" id="description" placeholder="Enter Your Message" required></textarea>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-contact submit animated tada"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Send Message</button>
+                            <input type="submit" class="btn btn-contact submit animated tada" value="Send Message">
+                            <!-- <button type="button" class="btn btn-contact submit animated tada"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Send Message</button> -->
                         </div>
                         
                     </div>
@@ -114,13 +115,13 @@
                 <div class="row">
                     <div class="col-xs-3"><a class="sp" href="会社案内.html#2_link">企業理念</a></div>
                     <div class="col-xs-3"><a class="sp" href="サービス.html#2_link">カスタムソリューション</a></div>
-                    <div class="col-xs-3"><a class="sp" href="活動内容.html#2_link">。。。。。</a></div>
+                    <div class="col-xs-3"><a class="sp" href="活動内容.html"">。。。。。</a></div>
                     <div class="col-xs-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-xs-3"><a class="sp" href="会社案内.html#3_link">経営理念</a></div>
                     <div class="col-xs-3"><a class="sp" href="サービス.html#3_link">モバイルデバイスとネット関連</a></div>
-                    <div class="col-xs-3"><a class="sp" href="活動内容.html#3_link">。。。。。</a></div>
+                    <div class="col-xs-3"><a class="sp" href="活動内容.html#2_link">。。。。。</a></div>
                     <div class="col-xs-3"></div>
                 </div>
                 <div class="row">

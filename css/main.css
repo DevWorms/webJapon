@@ -391,3 +391,18 @@ footer .footer-below
 {
     animation-iteration-count: 3;
 }
+
+
+/* C O L O R S */
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.sky-blue {
+    color: #5AA3B7;
+}
